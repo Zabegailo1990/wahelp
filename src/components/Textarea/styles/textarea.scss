@@ -1,0 +1,19 @@
+.textarea {
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+
+    &::placeholder{
+        font-family: 'Poppins';
+        font-size: 12px;
+        color: rgb(184, 184, 184);
+    }
+
+    &--active{
+        border-color: #2b90a8;
+        border-width: 2px;
+    }
+}

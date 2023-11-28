@@ -1,0 +1,37 @@
+.users {
+    &__container {
+        margin: 0 auto;
+        max-width: 1560px;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__cell {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        width: 400px;
+    }
+
+    &__user{
+        color: #474747;
+    }
+
+    &__button {
+        background-color: #2b90a8;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        align-self: flex-end;
+    }
+}

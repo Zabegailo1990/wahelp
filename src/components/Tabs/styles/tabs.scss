@@ -1,0 +1,23 @@
+.tabs{
+
+    &__row{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    &__tab{
+        color: #535353;
+        padding: 10px;
+        font-size: 20px;
+        transition: color .3s ease;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &--active{
+            color: #2b90a8;
+        }
+    }
+
+}

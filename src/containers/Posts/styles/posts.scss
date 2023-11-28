@@ -1,0 +1,46 @@
+.posts{
+
+    &__container{
+        margin: 0 auto;
+        max-width: 1560px;
+    }
+
+    &__header{
+        height: 52px;
+    }
+
+    &__row{
+        font-size: 16px;
+        font-family: 'Poppins';
+        display: flex;
+        align-items: center;
+    }
+
+    &__label{
+        font-size: 18px;
+        color: gray;
+        margin-right: 14px;
+    }
+
+    &__author{
+        color: #535353;
+        font-weight: 600;
+    }
+
+    &__button{
+        rotate: 45deg;
+        font-weight: 600;
+        font-size: 22px;
+        color: red;
+    }
+
+    &__inner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    &__post{
+        flex-shrink: 0;
+    }
+}
